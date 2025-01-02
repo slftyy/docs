@@ -1,28 +1,47 @@
 {
-  "logo": "/logo/dark.svg", 
+  "logo": "/logo/dark.svg",
   "name": "Echo Selling",
   "primaryColor": "#4E60FF",
   "favicon": "favicon.svg",
+  "colors": {
+    "primary": "#4E60FF",
+    "secondary": "#222222"
+  },
   "navigation": [
     {
-      "section": "Overview",
+      "group": "Overview",
       "pages": [
-        { "title": "Introduction", "url": "/introduction" }
+        {
+          "group": "Introduction",
+          "pages": [
+            "/introduction"
+          ]
+        }
       ]
     },
     {
-      "section": "GTA V",
+      "group": "GTA V",
       "pages": [
-        { "title": "GTA V - 1337", "url": "/gta-1337" },
-        { "title": "GTA V - Skript", "url": "/gta-skript" },
-        { "title": "GTA V - Hydrogen", "url": "/gta-hydrogen" }
+        {
+          "group": "GTA V - Features",
+          "pages": [
+            "/gta-1337",
+            "/gta-skript",
+            "/gta-hydrogen"
+          ]
+        }
       ]
     },
     {
-      "section": "Others",
+      "group": "Others",
       "pages": [
-        { "title": "Uninstall 23H2 Update", "url": "/uninstall-23h2" },
-        { "title": "Uninstall Security Update", "url": "/uninstall-security" }
+        {
+          "group": "Uninstall Guides",
+          "pages": [
+            "/uninstall-23h2",
+            "/uninstall-security"
+          ]
+        }
       ]
     }
   ],
