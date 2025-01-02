@@ -1,8 +1,8 @@
 {
-  "logo": "/assets/your-logo.png", 
-  "name": "Your Project Name",
+  "logo": "/logo/dark.svg", 
+  "name": "Echo Selling",
   "primaryColor": "#4E60FF",
-  "favicon": "/assets/favicon.ico",
+  "favicon": "favicon.svg",
   "navigation": [
     {
       "section": "Overview",
@@ -11,27 +11,11 @@
       ]
     },
     {
-      "section": "EAFC",
-      "pages": [
-        { "title": "EA FC 25 - Cheat", "url": "/eafc-cheat" },
-        { "title": "EA FC 25 - Sniper", "url": "/eafc-sniper" },
-        { "title": "EA FC 25 - Coins", "url": "/eafc-coins" }
-      ]
-    },
-    {
       "section": "GTA V",
       "pages": [
         { "title": "GTA V - 1337", "url": "/gta-1337" },
         { "title": "GTA V - Skript", "url": "/gta-skript" },
         { "title": "GTA V - Hydrogen", "url": "/gta-hydrogen" },
-        { "title": "GTA V - Astra", "url": "/gta-astra" },
-        { "title": "GTA V - Epic Account", "url": "/gta-epic-account" }
-      ]
-    },
-    {
-      "section": "R6S",
-      "pages": [
-        { "title": "R6S - Klar.gg", "url": "/r6s-klar" }
       ]
     },
     {
@@ -43,7 +27,7 @@
     }
   ],
   "footerLinks": [
-    { "title": "Support", "url": "/support" },
-    { "title": "Store", "url": "/store" }
+    { "title": "Support", "url": "https://discord.gg/echoselling" },
+    { "title": "Store", "url": "https://echostore.cc" }
   ]
 }
