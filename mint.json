@@ -1,52 +1,66 @@
 {
-  "logo": "/logo/dark.svg",
+  "$schema": "https://mintlify.com/schema.json",
   "name": "Echo Selling",
-  "primaryColor": "#4E60FF",
-  "favicon": "favicon.svg",
+  "theme": "prism",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg",
+    "href": "https://starter-prism.mintlify.app/"
+  },
+  "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#4E60FF",
-    "secondary": "#222222"
+    "primary": "#5D4CFE",
+    "light": "#8477FF",
+    "dark": "#5D4CFE"
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "https://discord.g/echoselling"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Store",
+    "url": "https://echostore.cc"
   },
   "navigation": [
     {
-      "group": "Overview",
+      "group": "",
       "pages": [
-        {
-          "group": "Introduction",
-          "pages": [
-            "/introduction"
-          ]
-        }
+        "introduction",
+        "quickstart",
+        "development"
       ]
     },
     {
-      "group": "GTA V",
+      "group": "Essentials",
       "pages": [
-        {
-          "group": "GTA V - Features",
-          "pages": [
-            "/gta-1337",
-            "/gta-skript",
-            "/gta-hydrogen"
-          ]
-        }
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation",
+        "essentials/reusable-snippets"
       ]
     },
     {
-      "group": "Others",
+      "group": "API Documentation",
       "pages": [
-        {
-          "group": "Uninstall Guides",
-          "pages": [
-            "/uninstall-23h2",
-            "/uninstall-security"
-          ]
-        }
+        "api-reference/introduction"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
       ]
     }
   ],
-  "footerLinks": [
-    { "title": "Support", "url": "/support" },
-    { "title": "Store", "url": "/store" }
-  ]
+  "footerSocials": {
+    "twitter": "https://twitter.com/mintlify",
+    "linkedin": "https://linkedin.com/company/mintlify",
+    "github": "https://github.com/mintlify"
+  }
 }
