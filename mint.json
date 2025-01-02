@@ -27,7 +27,7 @@
     }
   ],
   "footerLinks": [
-    { "title": "Support", "url": "https://discord.gg/echoselling" },
-    { "title": "Store", "url": "https://echostore.cc" }
+    { "title": "Support", "url": "/support" },
+    { "title": "Store", "url": "/store" }
   ]
 }
