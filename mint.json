@@ -15,8 +15,7 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "https://discord.g/echoselling"
+      "discord": "https://discord.gg/echoselling"
     }
   ],
   "topbarCtaButton": {
@@ -49,18 +48,9 @@
         "api-reference/introduction"
       ]
     },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify",
-    "github": "https://github.com/mintlify"
+    "discord": "https://discord.gg/echoselling",
+    "cart": "https://echostore.cc"
   }
 }
