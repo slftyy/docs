@@ -7,7 +7,7 @@
     "light": "/logo/logo.svg",
     "href": "https://docs.echostore.cc"
   },
-  "favicon": "logo/favicon.png",
+  "favicon": "/logo/favicon.svg",
   "colors": {
     "primary": "#ec00ff",
     "light": "#e9e9e9",
