@@ -7,7 +7,7 @@
     "light": "/logo/logo.svg",
     "href": "https://docs.echostore.cc"
   },
-  "favicon": "/logo/favicon.svg",
+  "favicon": "favicon.png",
   "colors": {
     "primary": "#ec00ff",
     "light": "#e9e9e9",
@@ -24,46 +24,42 @@
     "url": "https://echostore.cc"
   },
   "navigation": [
-    {
-      "group": "",
-      "pages": [
-        "introduction"
-      ]
-    },
-    {
-      "group": "GTA V",
-      "pages": [
-        {
-          "group": "GTA V - Cheats",
-          "pages": [
-            "cheats/1337",
-            "cheats/hydrogen",
-            "cheats/skript"
-          ]
-        },
-        {
-          "group": "GTA V - Grand",
-          "pages": [
-            "grand/money",
-            "grand/coins"
-          ]
-        },
-        {
-          "group": "GTA V - Other",
-          "pages": [
-            "other/spoofer",
-            "other/shadex"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "OTHERS",
-      "pages": [
-        "others/23h2"
-      ]
-    }
-  ],
+  {
+    "group": "Introduction",
+    "pages": [
+      "introduction"
+    ]
+  },
+  {
+    "group": "GTA V - Cheats",
+    "pages": [
+      "cheats/leet-cheats",
+      "cheats/hydrogen",
+      "cheats/skript"
+    ]
+  },
+  {
+    "group": "GTA V - Grand",
+    "pages": [
+      "grand/money",
+      "grand/coins"
+    ]
+  },
+  {
+    "group": "GTA V - Other",
+    "pages": [
+      "other/spoofer",
+      "other/shadex"
+    ]
+  },
+  {
+    "group": "OTHERS",
+    "pages": [
+      "others/23h2",
+      "others/unlink"
+    ]
+  }
+],
   "footerSocials": {
     "website": "https://echostore.cc",
     "discord": "https://discord.gg/echoselling"
